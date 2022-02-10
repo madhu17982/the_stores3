@@ -1,1 +1,1 @@
-web: gunicorn the_stores.wsgi --log-file -
+web: gunicorn app:app
